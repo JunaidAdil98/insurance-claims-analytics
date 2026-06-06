@@ -63,12 +63,6 @@ python analysis/build_dashboard.py   # writes docs/index.html
 
 The T-SQL path: run `sql/schema.sql`, bulk-load the three CSVs, then `sql/analysis_queries.sql` — results cross-check against the Python.
 
-## Publish the dashboard (GitHub Pages)
-
-1. Push this repo to GitHub.
-2. Repo **Settings → Pages → Build from branch → `main` / `/docs`**.
-3. Your live link appears in a minute or two. Put it at the top of this README and on your resume.
-
 ## Skills demonstrated
 
 `T-SQL` · `CTEs / window functions (NTILE, conditional aggregation)` · `descriptive & diagnostic analysis` · `cohort analysis (accident-year loss development)` · `regression (log-linear severity)` · `logistic modeling (claim frequency)` · `data cleaning & reconciliation` · `Python (pandas, scikit-learn)` · `dashboarding (Chart.js)`
